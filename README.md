@@ -2,13 +2,9 @@ This is a tool that functions to convert log files in the linux /var/log folder 
 
 # Overview
 
----
-
 These tools are made using the Golang programming language and use the [Cobra library](https://github.com/spf13/cobra) as a library to create CLI Applications.
 
 ## Installation
-
----
 
 If you to use this tools, please follow this steps:
 
@@ -19,8 +15,6 @@ If you to use this tools, please follow this steps:
 
 ### Convert log files into PlainText or JSON
 
----
-
 Run this command to convert the log files into PlainText or JSON: `mytools [path of log files] [flag of type] [type convert]`
 
 1. To convert log files into PlainText, e.g. `mytools /var/log/nginx/error.log -t text`
@@ -28,8 +22,6 @@ Run this command to convert the log files into PlainText or JSON: `mytools [path
 3. If flags of type is not included, it will be converted into PlainText file by default, e.g. `mytools /var/log/nginx/error.log`
 
 ### Export converted log files
-
----
 
 You can also export the converted files into PlainText or JSON file.
 Run this command to exported the files: `mytools [path of log files] [flag of type] [type convert] [flag of output] [output destination]`
